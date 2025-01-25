@@ -1,0 +1,64 @@
+@font-face {
+  font-family: bakh;
+  src: url("./yekabBakh/Yekan-Bakh-FaNum-04-Regular.ttf");
+}
+
+.liberary {
+  width: 400px;
+  height: max-content;
+  border: 1px solid #eee;
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 50px 30px;
+  box-shadow: 0px 5px 20px 5px #eee;
+  font-family: bakh;
+  direction: rtl;
+  text-align: right;
+}
+
+.liberary > p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.liberary form {
+  display: grid;
+  gap: 10px;
+}
+
+.liberary form label {
+  display: grid;
+}
+
+.liberary input[type="text"] {
+  height: 40px !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.liberary input[type="text"]::placeholder {
+  color: #b9b9b9;
+  font-family: bakh;
+  font-size: 13px;
+}
+
+.liberary form button {
+  height: 42px;
+  font-family: bakh;
+  font-size: 18px;
+  background-color: rgb(106, 19, 220);
+  color: #fff;
+  border: 1px solid rgb(106, 19, 220);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.liberary form .label-check {
+  display: flex;
+}
+
+#reedDate {
+  display: none;
+}
