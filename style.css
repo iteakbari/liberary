@@ -63,6 +63,12 @@
   background-color: rgba(106, 19, 220, 0.9);
 }
 
+.liberary form button:disabled {
+  background-color: rgba(106, 19, 220, 0.3);
+  border: 1px solid rgba(106, 19, 220, 0.2);
+  pointer-events: none;
+}
+
 .liberary form .label-check {
   display: flex;
 }
