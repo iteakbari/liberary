@@ -36,6 +36,8 @@
   border: 1px solid #c4c4c4;
   border-radius: 5px;
   padding: 0 10px;
+  font-family: bakh;
+  margin: 0;
 }
 
 .liberary input[type="text"]::placeholder {
@@ -53,6 +55,12 @@
   border: 1px solid rgb(106, 19, 220);
   border-radius: 5px;
   margin-top: 20px;
+  transition: 0.3s;
+}
+
+.liberary form button:hover {
+  cursor: pointer;
+  background-color: rgba(106, 19, 220, 0.9);
 }
 
 .liberary form .label-check {
@@ -61,4 +69,14 @@
 
 #reedDate {
   display: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+p {
+  margin: 0;
 }

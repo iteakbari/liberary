@@ -10,30 +10,49 @@
   <body>
     <div class="liberary">
       <p>کتابخانه من</p>
-      <form action="">
-        <label>
+      <form id="submitForm">
+        <label class="input-label">
           نام کتاب
-          <input type="text" name="" placeholder="نام کتاب" />
+          <input type="text" name="" placeholder="نام کتاب" id="book-name" />
+          <p class="error">نام کتاب را وارد کنید</p>
         </label>
-        <label>
+        <label class="input-label">
           نویسنده کتاب
-          <input type="text" name="" placeholder="نویسنده کتاب" />
+          <input
+            type="text"
+            name=""
+            placeholder="نویسنده کتاب"
+            id="book-author"
+          />
+          <p class="error">نام نویسنده کتاب را وارد کنید</p>
         </label>
 
-        <label>
+        <label class="input-label">
           انتشارات
-          <input type="text" name="" placeholder="انتشارات" />
+          <input
+            type="text"
+            name=""
+            placeholder="انتشارات"
+            id="book-publisher"
+          />
+          <p class="error">نام انتشارات را وارد کنید</p>
         </label>
         <label class="label-check">
-          <input type="checkbox" name="" id="" />
+          <input type="checkbox" name="" id="book-reed" />
           خوانده‌ام
         </label>
-        <label id="reedDate">
+        <label id="reedDate" class="input-label">
           تاریخ مطالعه
-          <input type="text" name="" placeholder="01-02-1404" />
+          <input
+            type="text"
+            name=""
+            placeholder="01-02-1404"
+            id="book-reed-date"
+          />
+          <p class="error">تاریخ مطالعه کتاب را وارد کنید</p>
         </label>
 
-        <button>ثبت</button>
+        <button type="submit">ثبت</button>
       </form>
     </div>
 
